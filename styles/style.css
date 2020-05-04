@@ -193,7 +193,7 @@ input:-moz-placeholder {
 /*Header*/
 .header-area { position: absolute; left: 0; top: 0; width: 100%; top: 0; left: 0; width: 100%; transition: all 500ms ease; -moz-transition: all 500ms ease; -webkit-transition: all 500ms ease; -ms-transition: all 500ms ease; -o-transition: all 500ms ease; z-index: 999; }
 .header-area.fixed-header .header-lower{/*box-shadow: 0 0 7px 2px rgba(0,0,0,0.25);*/border-bottom: 1px solid rgba(170,170,170,0.26);}
-.header-lawer-content .logo { text-align: center; padding: 20px 0 20px 0; width:200px; }
+.header-lawer-content .logo { text-align: center; padding: 20px 0 20px 0; width:392px; }
 .header-lawer-content .logo a { display: inline-block; }
 .main-menu { position: relative; }
 .main-menu .navigation { margin: 0; position: relative; text-align: center }
@@ -201,7 +201,7 @@ input:-moz-placeholder {
 .main-menu .navigation li:first-child { margin-left: 0px; }
 .main-menu .navigation li::before { }
 .main-menu .navigation li:last-child:before { display: none; }
-.main-menu .navigation li a { text-decoration: none; position: relative; color: #404041; display: block; font-size: 15px; line-height: 16px; text-transform: uppercase; opacity: 1; padding: 20px 0px 30px 0; transition: all 300ms ease;font-weight: 400;}
+.main-menu .navigation li a { text-decoration: none; position: relative; color: #404041; display: block; font-size: 15px; line-height: 16px; text-transform: uppercase; opacity: 1; padding: 20px 0px 20px 0; transition: all 300ms ease;font-weight: 400;}
 .main-menu .navigation li a i{margin-left: 5px;}
 .main-menu .navigation li .menuIcons a { font-size: 20px; display: inline-block; vertical-align: middle; margin: 0 5px }
 .main-menu .navigation li .menuIcons a:first-child { margin-left: 0 }
@@ -220,7 +220,7 @@ input:-moz-placeholder {
 .mainmenu-middle ul li { display: inline-block; float: left; margin-right: 10px; border-right: 1px solid #e4e4e4; padding-right: 10px; }
 .mainmenu-middle ul li:last-child { margin-right: 0px; border-right: 0px solid #e4e4e4; padding-right: 0px; }
 .header-lower-left { float: left }
-.header-lower-right { float: right; margin-top: 35px; }
+.header-lower-right { float: right; margin-top: 55px; }
 .header-lower-left .dsirLogo{float:left; width:27px; margin-left:40px; margin-top:40px;}
 .header-lower-left .logo{float:left}
 .dsirLogo img{max-width:100%;}
@@ -428,8 +428,10 @@ h3.home-about-text span.smallLeaf img{height: 12px;}
 	margin-top: 20px;
 }
 .heading p.cases-desc{
-	font-size: 16px; margin-bottom: 1rem;
+	font-size: 16px; margin-bottom: 1rem;letter-spacing: -0.3px;
 }
+.heading h2.sizes-heading{font-size: 52px;line-height: 62px;}
+.product-hr{margin-bottom: 2rem;}
 .cases-item-customer { font-size: 12px;  font-weight:300; margin: 0 }
 .product-1 { background: url(../images/product-img-1.jpg) }
 .product-2 { background: url(../images/product-img-2.jpg) }
@@ -539,8 +541,8 @@ overflow: hidden }
 .phylosypyText1.chromalgin2color ul li a{color: #fff;text-decoration:underline;}
 .phylosypyText1.chromalgin2color ul li a:hover{font-weight:400;}
 .phylosypyText1.chromalgin2color ul li i{}
-.phylosypyText1.chromalgin2color ul li i img {width: 130px;}
-.phylosypyText1.chromalgin2color ul li p {color: #fff;margin: 0;}
+.phylosypyText1.chromalgin2color ul li i img {width: 176px;}
+.phylosypyText1.chromalgin2color ul li p {color: #fff;margin:20px 0 0 0;font-size:32px;font-weight: 100;}
 
 .chromalgin-page #whatDoctorSays{position:relative;top:-60px;}
 
@@ -618,7 +620,9 @@ overflow: hidden }
 .panel .answer .pointers{background: #ddd;padding: 10px 10px;}
 .panel .answer ul{margin-bottom:30px;margin-top:-10px;}
 .panel .answer li {margin-bottom: 10px;font-size: 17px;line-height: 26px;padding-left: 35px;position: relative;background: url(../images/small-leaf.png) 0px 9px no-repeat;background-size: 18px;}
-.otherProduct li {    margin-bottom: 10px; font-size: 17px; line-height: 26px; padding-left: 22px; position: relative; background: url(../images/blackBullet.png) 0px 2px no-repeat; background-size: 14px;}
+.otherProduct {margin-bottom: 20px;}
+.features-heading{margin-bottom: 10px;}
+.otherProduct li {    margin-bottom: 0px; font-size: 17px; line-height: 26px; padding-left: 22px; position: relative; background: url(../images/blackBullet.png) 0px 2px no-repeat; background-size: 14px;}
 .references ol li { margin-top: 5px; font-size: 12px; line-height: 15px; position: relative; list-style-type: decimal;margin-left: 13px; }
 .panel .answer li:before {content: "";width: 10px;height: 1px;position: absolute;top: 12px;left: 8px;background: #404040;}
 .brakebox {padding-bottom:30px;}
@@ -684,7 +688,8 @@ overflow: hidden }
 .innerpageHeading {background:#fff; position:relative; z-index:1}
 .phylosopyBloack{position:relative; z-index:3; background:#fff;}
 .innerBanner{position:relative}
-.innerpageHeading .heading{padding-top:210px; padding-bottom:70px}
+.innerpageHeading .heading{padding-top:120px; padding-bottom:70px}
+.ipasafe-bottle{margin-left:100px;}
 .innerPageTop{padding-top:100px}
 .innerBannerBlock{position:relative; background-position: 50% 50%;background-repeat: no-repeat;background-attachment: fixed;background-size: cover;}
 .phylosophyBg{background:url(../images/philosophy-bg.jpg) 0 0 no-repeat;background-position: center center;background-attachment: fixed;background-size: cover; min-height:80vh}
@@ -759,8 +764,8 @@ ul.dash-bullet li:before{content:"";position:absolute;width: 10px;height: 1px;ba
 }
 @media(min-width:1920px) {
 .ourmissionBg{background:#f2f2f2 url(../images/our-mission-bg.jpg) left center no-repeat; background-size:cover;background-position: center -50px;}
-.phylosypyText1.chromalgin2color ul li{padding: 40px 80px;}
-.phylosypyText.chromalgin2color ul li{padding: 40px 80px;}
+.phylosypyText1.chromalgin2color ul li{padding: 40px 20px;}
+.phylosypyText.chromalgin2color ul li{padding: 40px 20px;}
 }
 
 @media screen and (min-width: 1367px) and (max-width:1600px) {
@@ -773,9 +778,14 @@ ul.dash-bullet li:before{content:"";position:absolute;width: 10px;height: 1px;ba
 .container { max-width: 1200px; }
 .expertiseBox{ min-height:700px}
 .rev_slider_wrapper .slide-contentbx {right: 18%;transform: translateY(-22%);}
+
 }
  @media screen and (min-width: 1200px) and (max-width:1600px) {
 .container { max-width: 1200px; }
+.phylosypyText1.chromalgin2color ul li{min-height: 200px;padding: 30px;}
+.phylosypyText1.chromalgin2color ul li i img {width: 130px;}
+.phylosypyText1.chromalgin2color ul li p {font-size:24px;}
+
 }
 @media screen and (min-width: 0) and (max-width:1199px) {
 /*overlay*/
@@ -798,6 +808,10 @@ ul.dash-bullet li:before{content:"";position:absolute;width: 10px;height: 1px;ba
 .phylosophyBg{background-size:auto; min-height:50vh}
 .missionText {margin-top:0 !important}
 .phylosypyText {padding-top:50px;}
+.heading h2.sizes-heading{font-size: 48px;line-height: 52px;}
+.phylosypyText1.chromalgin2color ul li{min-height: 170px;padding: 15px 15px;}
+.phylosypyText1.chromalgin2color ul li i img {width: 100px;}
+.phylosypyText1.chromalgin2color ul li p {font-size:18px;}
 }
  @media screen and (min-width: 0) and (max-width:1024px) {/*For ipad and tab*/
 }
@@ -873,6 +887,7 @@ ul.submenu{position: relative;left: 0;box-shadow: none;width: auto;border-bottom
 .header-lawer-content .logo { padding: 10px 0 }
 .header-lower-left .dsirLogo { margin-top: 17px }
 .heading h2 { font-size: 32px;line-height: 36px; }
+
 .wdsSlider .slick-dots { bottom: -25px; }
 .wdsMovingTxt::before { left: -18px; top: -25px; width: 60px; height: 43px; background-size: 100% auto; }
 .wdsImg { text-align: center }
@@ -917,6 +932,8 @@ p.subhead{font-size:20px;line-height: 26px;}
 .heading{padding:50px 0 50px 0}
 .missionText{padding:0 0 25px 0; margin-top:0 !important}
 .phylosypyText  .smallBlockHeading h3{padding-bottom:1rem;}
+.heading h2.sizes-heading{    font-size: 18px;line-height: 20px;}
+.phylosypyText1.chromalgin2color ul li{min-height: 200px;padding: 15px 15px;}
 }
  @media screen and (min-width: 0) and (max-width:767px) {
 .abouteLeaf { display: none }
@@ -956,7 +973,7 @@ p.subhead{max-width: 100%;}
 .ourMissionBloack .container{padding-top: 20px;padding-bottom:5px;}
 .ourMissionBloack .container img{margin-top: 0!important;}
 .ipasafe-bottle{margin: 0 auto!important;display: block;max-width:200px;}
-.phylosypyText1.chromalgin2color ul li{width: 50%;border-bottom: 1px solid #eee;}
+.phylosypyText1.chromalgin2color ul li{width:49%;border-bottom: 1px solid #eee;}
 .otherProduct ul{margin-bottom: 15px!important;}
 /*.ourmissionBg {background-size: 713px auto;background-position: 0px bottom;padding-top: 0;padding-bottom: 200px;}*/
 .ourmissionBg {background-size: 700px auto;background-position: 0px 335px;padding-top: 0;padding-bottom: 200px;}
@@ -1006,7 +1023,9 @@ br{display:none;}
 .md-mr0{margin-right:0px !important;}
 .md-ml0{margin-left:0px !important;}
 .mob-display{display:block !important}
-
+.phylosypyText1.chromalgin2color ul li {min-height: 170px;}
+.phylosypyText1.chromalgin2color ul li i img{width: 80px;}
+.phylosypyText1.chromalgin2color ul li p{font-size: 16px;}
 }
 @media screen and (min-width: 0) and (max-width:480px) {
 }
