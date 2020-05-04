@@ -251,7 +251,7 @@ margin-top: 0;
 }
 }
 .fixed-header .header-lower { position: fixed; opacity: 0; visibility: hidden; left: 0px; top: 0px; width: 100%; padding: 0px 0px; background: #fff; z-index: 0; /*box-shadow: 0 0 7px 2px rgba(0,0,0,0.25);*/ transition: all 500ms ease; -moz-transition: all 500ms ease; -webkit-transition: all 500ms ease; -ms-transition: all 500ms ease; -o-transition: all 500ms ease; }
-.fixed-header .header-lower .logo { padding: 10px 0px; width: 150px; }
+.fixed-header .header-lower .logo { padding: 10px 0px; width: 190px; }
 .fixed-header .header-lower .logo a { display: inline-block; }
 .fixed-header .header-lower { z-index: 999; opacity: 1; visibility: visible; animation-name: menu_sticky; animation-duration: 0.60s; animation-timing-function: ease-out; -webkit-transition: all .25s ease-in-out; -moz-transition: all .25s ease-in-out; -ms-transition: all .25s ease-in-out; -o-transition: all .25s ease-in-out; transition: all .25s ease-in-out; }
 .fixed-header.header-area .header-lower { min-height: auto }
@@ -792,7 +792,7 @@ ul.dash-bullet li:before{content:"";position:absolute;width: 10px;height: 1px;ba
 .overlay-box { width: 96%; min-width: 0 }
 /*overlay end*/
 
-.header-lawer-content .logo { width: 160px; }
+.header-lawer-content .logo { width: 190px; }
 .header-lower-left .dsirLogo { margin-top: 25px; margin-left: 20px; }
 .main-menu .navigation li { margin-left: 15px; }
 .header-lower-right { margin-top: 25px; }
